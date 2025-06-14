@@ -12,14 +12,14 @@ def detect_cycle(head)
   slow = fast = head
 
   # Phase 1: Detect if a cycle exists
-  while fast && fast.next
+  while fast&.next
     slow = slow.next
     fast = fast.next.next
     break if slow == fast
   end
 
   # No cycle found
-  return nil unless fast && fast.next
+  return nil unless fast&.next
 
   # Phase 2: Find the entry point of the cycle
   start = head
