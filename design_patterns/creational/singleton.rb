@@ -41,3 +41,5 @@ end
 obj1 = SingletonExample.instance
 obj2 = SingletonExample.instance
 puts obj1 == obj2 # => true
+
+

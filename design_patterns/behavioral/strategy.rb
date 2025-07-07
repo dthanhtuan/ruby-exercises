@@ -44,3 +44,5 @@ puts name_sorter.sort_employees(employees)
 age_sorter = EmployeeSorter.new(SortingByAge.new)
 puts "Sorted by age:"
 puts age_sorter.sort_employees(employees)
+
+
