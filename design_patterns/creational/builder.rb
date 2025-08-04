@@ -1,3 +1,6 @@
+# Builder is a creational design pattern that lets you construct complex objects step by step.
+# The pattern allows you to produce different types and representations of an object using the same construction code.
+
 # Product: Car and Parts
 class Car
   attr_accessor :engine, :wheels, :body, :doors, :color, :windshield, :container_part
