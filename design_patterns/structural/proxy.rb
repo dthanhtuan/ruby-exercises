@@ -1,6 +1,6 @@
-# The Proxy "is a wrapper class that controls access to the real object and can be used as a substitute for it
-# In this example, the APIProxy acts as an intermediary that controls and extends the behavior of RealAPI without the client needing to be aware of it.
-# This is a classic use of the Proxy Pattern in web development to improve security, optimize performance, and monitor access
+# Proxy is a structural design pattern that lets you provide a substitute or placeholder for another object.
+# A proxy controls access to the original object,
+# allowing you to perform something either before or after the request gets through to the original object.
 
 # Real object handling main business logic
 class RealAPI
