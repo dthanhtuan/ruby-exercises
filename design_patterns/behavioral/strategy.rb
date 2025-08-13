@@ -1,4 +1,9 @@
-# Strategies
+# Strategies design pattern example in Ruby
+# This example demonstrates how to implement the Strategy pattern in Ruby
+# to sort a list of employees by different criteria (name and age).
+# # The Strategy pattern allows you to define a family of algorithms,
+# # encapsulate each one, and make them interchangeable. This lets the algorithm
+# # vary independently from the clients that use it.
 class SortingStrategy
   def sort(data)
     raise NotImplementedError, 'This method should be overridden by subclasses'
